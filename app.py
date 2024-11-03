@@ -4,9 +4,6 @@ from flask import Flask
 from urllib.parse import quote 
 
 def create_app():
-    x=10
-    y=100
-    z=30
     app = Flask(__name__)
 
     @app.route('/')
@@ -15,14 +12,6 @@ def create_app():
 
     return app
 
-def test():
-    print("hi")
-    test()
-
-def sum(z,y):
-    return z+y
-
-def add(a,b):
     return a+b
 
 if __name__ == '__main__':
