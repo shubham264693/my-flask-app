@@ -8,7 +8,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'This is jenkins setup.'
+        return 'This is jenkins setup test.'
 
     return app
 
